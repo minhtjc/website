@@ -1,0 +1,141 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navscroll {
+      white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+
+}
+.navbar .nav-item {
+  color: dodgerblue;
+    padding-right: 30px;
+}
+.navbar nav {
+  background:white ;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+padding-bottom: 60px;
+    padding-top: 30px;
+}
+.nav-item {
+  padding: 13px 16px 12px;
+}
+
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:white;
+}
+
+div, a, p, h3,  {
+  font-family: arial,helvetica, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+    font-family: arial,helvetica, sans-serif;
+padding-bottom: 20px;
+ 
+}
+    
+.links {
+    font-family: arial,helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 20px; 
+}
+
+h1 {
+  
+  color: dodgerblue;
+    font-size: 30px;
+    
+}
+
+
+h3 {
+  padding: 20px 0px;
+  color: aqua;
+}
+
+.content {
+  width: 860px;
+  margin: 0px auto;
+}
+
+.centered {
+  width: 20px;
+  margin: 120px;
+}
+
+.thumbnail-container {
+  position: relative;
+  display: block;
+  background-color: gray;
+  opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+  opacity: 0.8;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+  opacity: 0.2;
+}
+
+.thumbnail-text {
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: white;
+  opacity: 0;
+  text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.thumbnail-tile {
+  margin-bottom: 20px;
+}
+
+.text {
+  color: dodgerblue;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.menu {
+  background-color: dodgerblue;
+  width: 100%;
+  height: 115px;
+  margin-bottom: 60px;
+}
+
+.links {
+  width: 20px;
+  float: Center;
+  color: dodgerblue;
+  text-align: right;
+}
+
+.links:hover {
+  color: blue;
+}
+
+
+/*Foundation Overrides*/
+
+.columns:last-child:not(:first-child){
+  float: center;
+}
